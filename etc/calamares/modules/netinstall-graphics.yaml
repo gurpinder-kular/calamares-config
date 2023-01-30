@@ -1,9 +1,119 @@
-- name: "Graphics"
-  description: "Graphics"
+- name: "Browsers"
+  description: "Web Browsers"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - firefox
+    - firefox-developer-edition
+    - chromium 
+    - torbrowser-launcher
+- name: "Image Editors/Tools"
+  description: "Image Editing Tools"
   hidden: false
   selected: false
   critical: false
   packages:
     - gimp
-    - chromium 
+    - krita
+    - krita-plugin-gmic
+    - inkscape
+    - darktable 
+    - imagemagick
+    - flameshot
+    - gpick
+    - feh
+    - gthumb
+    - ristretto
+- name: "Video Editors & Streaming Tools"
+  description: "Video Editors & Streaming Tools"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - obs-studio
+    - kdenlive
+    - openshot
+    - ffmpeg 
+- name: "Video Players"
+  description: "Video players"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - mpv
+    - parole
+- name: "PDF"
+  description: "PDF"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - xournalpp
+    - xreader
+    - evince
+    - zathura
+    - zathura-cb
+    - zathura-djvu
+    - zathura-pdf-mupdf
+    - zathura-ps
+- name: "Text Editors"
+  description: "Text Editors"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - nano
+    - vim
+    - neovim
+    - xed
+    - mousepad
+- name: "IDE's"
+  description: "IDE's"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - geany
+    - code
+- name: "Torrent Clients"
+  description: "Torrent clients"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - transmission-gtk
+    - qbittorrent
+- name: "Password Managers"
+  description: "Password managers"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - bitwarden
+    - keepass
+- name: "Communication"
+  description: "Communication"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - thunderbird
+    - mattermost-desktop
+- name: "Development"
+  description: "Development"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - git
+    - meld
+- name: "Download Managers"
+  description: "Downloader managers"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - yt-dlp
+  
   
