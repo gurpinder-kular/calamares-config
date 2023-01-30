@@ -24,7 +24,6 @@
     - gpick
     - feh
     - gthumb
-    - ristretto
 - name: "Video Editors & Streaming Tools"
   description: "Video Editors & Streaming Tools"
   hidden: false
@@ -33,6 +32,7 @@
   packages:
     - obs-studio
     - kdenlive
+    - shotcut
     - openshot
     - ffmpeg 
 - name: "Video Players"
@@ -42,6 +42,8 @@
   critical: false
   packages:
     - mpv
+    - vlc
+    - smplayer
     - parole
 - name: "PDF"
   description: "PDF"
@@ -64,7 +66,6 @@
   critical: false
   packages:
     - nano
-    - vim
     - neovim
     - xed
     - mousepad
@@ -115,5 +116,12 @@
   critical: false
   packages:
     - yt-dlp
+- name: "Fetch"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - neofetch
+    - onefetch
   
   
