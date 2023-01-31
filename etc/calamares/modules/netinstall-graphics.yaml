@@ -125,6 +125,14 @@
   packages:
     - neofetch
     - onefetch
+- name: "Power Management"
+  description: ""
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - lxqt-powermanagement 
+    - xfce4-power-manager 
 - name: "Printing-Support"
   description: "Support for printing (Cups)"
   hidden: false
@@ -150,7 +158,7 @@
   description: ""
   hidden: false
   selected: false
-  critical: true
+  critical: false
   packages:
     - virt-manager 
     - qemu-desktop 
