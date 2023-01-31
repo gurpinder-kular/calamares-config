@@ -109,6 +109,8 @@
   packages:
     - git
     - meld
+    - docker
+    - docker-compose
 - name: "Download Managers"
   description: "Downloader managers"
   hidden: false
