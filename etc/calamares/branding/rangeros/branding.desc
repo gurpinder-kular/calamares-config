@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "@{NAME}"
-    shortProductName:    Generic
-    version:             2020.2 LTS
-    shortVersion:        2020.2
-    versionedName:       Fancy GNU/Linux 2020.2 LTS "Turgid Tuba"
-    shortVersionedName:  FancyGL 2020.2
-    bootloaderEntryName: FancyGL
+    productName:         RangerOS
+    shortProductName:    RangerOS
+    version:             2023.01.31
+    shortVersion:        2023.01.31
+    versionedName:       RangerOS
+    shortVersionedName:  RangerOS
+    bootloaderEntryName: RangerOS
     productUrl:          https://calamares.io/
     supportUrl:          https://github.com/calamares/calamares/wiki
     knownIssuesUrl:      https://github.com/calamares/calamares/issues
@@ -163,7 +163,7 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "squid.png"
+    productIcon:         "logo.png"
     productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "slide-1.png"
