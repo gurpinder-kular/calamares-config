@@ -1,5 +1,5 @@
-- name: "Browsers"
-  description: "Web Browsers"
+- name: "Web browsers"
+  description: ""
   hidden: false
   selected: false
   critical: false
@@ -7,9 +7,10 @@
     - firefox
     - firefox-developer-edition
     - chromium 
+    - vivaldi
     - torbrowser-launcher
-- name: "Image Editors/Tools"
-  description: "Image Editing Tools"
+- name: "Image editors/tools"
+  description: ""
   hidden: false
   selected: false
   critical: false
@@ -22,10 +23,9 @@
     - imagemagick
     - flameshot
     - gpick
-    - feh
     - gthumb
-- name: "Video Editors & Streaming Tools"
-  description: "Video Editors & Streaming Tools"
+- name: "Video editors & streaming tools"
+  description: ""
   hidden: false
   selected: false
   critical: false
@@ -35,18 +35,18 @@
     - shotcut
     - openshot
     - ffmpeg 
-- name: "Video Players"
-  description: "Video players"
+    - handbrake
+- name: "Video players"
+  description: ""
   hidden: false
   selected: false
   critical: false
   packages:
     - mpv
     - vlc
-    - smplayer
     - parole
 - name: "PDF"
-  description: "PDF"
+  description: ""
   hidden: false
   selected: false
   critical: false
@@ -59,8 +59,8 @@
     - zathura-djvu
     - zathura-pdf-mupdf
     - zathura-ps
-- name: "Text Editors"
-  description: "Text Editors"
+- name: "Text editors"
+  description: ""
   hidden: false
   selected: false
   critical: false
@@ -70,23 +70,23 @@
     - xed
     - mousepad
 - name: "IDE's"
-  description: "IDE's"
+  description: ""
   hidden: false
   selected: false
   critical: false
   packages:
     - geany
     - code
-- name: "Torrent Clients"
-  description: "Torrent clients"
+- name: "Torrent clients"
+  description: ""
   hidden: false
   selected: false
   critical: false
   packages:
     - transmission-gtk
     - qbittorrent
-- name: "Password Managers"
-  description: "Password managers"
+- name: "Password managers"
+  description: ""
   hidden: false
   selected: false
   critical: false
@@ -94,29 +94,44 @@
     - bitwarden
     - keepass
 - name: "Communication"
-  description: "Communication"
+  description: ""
   hidden: false
   selected: false
   critical: false
   packages:
     - thunderbird
     - mattermost-desktop
+    - discord
+    - signal-desktop
+    - telegram-desktop
+- name: "Office suites"
+  description: ""
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - libreoffice-fresh
+    - libreoffice-still
+    - calligra
 - name: "Development"
-  description: "Development"
+  description: ""
   hidden: false
   selected: false
   critical: false
   packages:
     - git
+    - cmake
+    - meson
     - meld
     - docker
     - docker-compose
-- name: "Download Managers"
-  description: "Downloader managers"
+- name: "Download managers"
+  description: ""
   hidden: false
   selected: false
   critical: false
   packages:
+    - you-get
     - yt-dlp
 - name: "Fetch"
   hidden: false
@@ -125,6 +140,15 @@
   packages:
     - neofetch
     - onefetch
+- name: "Font management"
+  description: ""
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - font-manager
+    - deepin-font-manager
+    - gnome-font-viewer
 - name: "Power Management"
   description: ""
   hidden: false
@@ -133,8 +157,8 @@
   packages:
     - lxqt-powermanagement 
     - xfce4-power-manager 
-- name: "Printing-Support"
-  description: "Support for printing (Cups)"
+- name: "Printing support"
+  description: ""
   hidden: false
   selected: false
   critical: true
@@ -154,13 +178,3 @@
     - splix
     - system-config-printer
     - simple-scan
-- name: "Virt-manager"
-  description: ""
-  hidden: false
-  selected: false
-  critical: false
-  packages:
-    - virt-manager 
-    - qemu-desktop 
-    - dnsmasq 
-    - iptables-nft
