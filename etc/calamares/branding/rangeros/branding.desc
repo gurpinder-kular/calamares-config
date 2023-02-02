@@ -166,7 +166,7 @@ images:
     productIcon:         "logo.png"
     productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "slide-1.png"
+    productWelcome:      "welcome.png"
 
 # Colors for text and background components.
 #
@@ -183,7 +183,7 @@ style:
    sidebarBackground:    "#292F34"
    sidebarText:          "#FFFFFF"
    sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#D35400"
+   sidebarTextHighlight: "#A6E3A1"
 
 ### SLIDESHOW
 #
